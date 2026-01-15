@@ -24,7 +24,7 @@ CYB-201
     ?>
     <div class="floating-border">
     <!--Step 9-->
-    <h2>Account of <?= $customer->getFullName() ?></h2>
+    <h2>Name: <?= $customer->getFullName() ?></h2>
     <table>
         <tr>
             <th>ACCOUNT NUMBER</th>
